@@ -1,0 +1,454 @@
+Test Package,Test Cases,"compare to base version
+/home/user/cts/r13/android-cts/repository/results/2016.12.23_19.57.51/testResult.xml",CTS Error(/home/user/cts/r13/android-cts/repository/results/2016.12.23_19.57.51/testResult.xml)
+android.app.usage.cts.NetworkUsageStatsTest,testAppDetails,same issue of base version,"junit.framework.AssertionFailedError: android.hardware.wifi is a reported system feature, however no corresponding connected network interface was found or the attempt to connect has timed out (timeout = 15000ms). Please make sure you are connected to a WiFi access point.
+at junit.framework.Assert.fail(Assert.java:50)"
+android.app.usage.cts.NetworkUsageStatsTest,testAppSummary,same issue of base version,"junit.framework.AssertionFailedError: android.hardware.wifi is a reported system feature, however no corresponding connected network interface was found or the attempt to connect has timed out (timeout = 15000ms). Please make sure you are connected to a WiFi access point.
+at junit.framework.Assert.fail(Assert.java:50)"
+android.app.usage.cts.NetworkUsageStatsTest,testDeviceSummary,same issue of base version,"junit.framework.AssertionFailedError: android.hardware.wifi is a reported system feature, however no corresponding connected network interface was found or the attempt to connect has timed out (timeout = 15000ms). Please make sure you are connected to a WiFi access point.
+at junit.framework.Assert.fail(Assert.java:50)"
+android.app.usage.cts.NetworkUsageStatsTest,testUidDetails,same issue of base version,"junit.framework.AssertionFailedError: android.hardware.wifi is a reported system feature, however no corresponding connected network interface was found or the attempt to connect has timed out (timeout = 15000ms). Please make sure you are connected to a WiFi access point.
+at junit.framework.Assert.fail(Assert.java:50)"
+android.app.usage.cts.NetworkUsageStatsTest,testUserSummary,same issue of base version,"junit.framework.AssertionFailedError: android.hardware.wifi is a reported system feature, however no corresponding connected network interface was found or the attempt to connect has timed out (timeout = 15000ms). Please make sure you are connected to a WiFi access point.
+at junit.framework.Assert.fail(Assert.java:50)"
+android.bluetooth.cts.BluetoothLeScanTest,testOpportunisticScan,same issue of base version,"junit.framework.AssertionFailedError: opportunistic scan shouldn't have scan results
+at junit.framework.Assert.fail(Assert.java:50)"
+android.cts.security.SELinuxHostTest,testAllEnforcing,same issue of base version,"junit.framework.AssertionFailedError: The following SELinux domains were found to be in permissive mode:
+su"
+android.cts.security.SELinuxHostTest,testAospPropertyContexts,same issue of base version,"junit.framework.ComparisonFailure: Lines do not match: expected:<se[curity.perf_harden]    u:object_r:shell...> but was:<se[rvice.adb.root    ]    u:object_r:shell...>
+	at junit.framework.Assert.assertEquals(Assert.java:85)"
+android.cts.security.SELinuxHostTest,testWatchdogdDomain,same issue of base version,"junit.framework.ComparisonFailure: Expected executable ""/sbin/watchdogd"" in SELinux domain ""u:r:watchdogd:s0""Found: ""label: u:r:watchdogd:s0 user: root pid: 3842 ppid: 1 cmd: /system/bin/watchdog"" expected:</s[bin/watchdogd]> but was:</s[ystem/bin/watchdog]>
+	at junit.framework.Assert.assertEquals(Assert.java:85)"
+android.cts.security.SELinuxNeverallowRulesTest,testNeverallowRules103,same issue of base version,"junit.framework.AssertionFailedError: The following errors were encountered when validating the SELinuxneverallow rule:
+neverallow { domain  } su_exec:file { execute execute_no_trans };"
+android.cts.security.SELinuxNeverallowRulesTest,testNeverallowRules112,same issue of base version,"junit.framework.AssertionFailedError: The following errors were encountered when validating the SELinuxneverallow rule:
+neverallow {   domain   -shell      -installd } shell_data_file:lnk_file read;"
+android.cts.security.SELinuxNeverallowRulesTest,testNeverallowRules19,same issue of base version,"junit.framework.AssertionFailedError: The following errors were encountered when validating the SELinuxneverallow rule:
+neverallow { appdomain -shell  } { domain -appdomain }:process     { transition dyntransition };"
+android.cts.security.SELinuxNeverallowRulesTest,testNeverallowRules53,same issue of base version,"junit.framework.AssertionFailedError: The following errors were encountered when validating the SELinuxneverallow rule:
+neverallow {   domain   -debuggerd   -vold   -dumpstate   -system_server       } self:capability sys_ptrace;"
+android.host.multiuser.CreateUsersPermissionTest,testCantSetUserRestriction,same issue of base version,"junit.framework.AssertionFailedError: Trying to set user restriction should fail with SecurityException
+	at junit.framework.Assert.fail(Assert.java:50)"
+android.media.cts.AdaptivePlaybackTest,testH263_eosFlushSeek,same issue of base version,"Test failed to run to completion. Reason: 'Test run failed to complete. Expected 1230 tests, received 8'. Check device logcat for details"
+android.media.cts.AdaptivePlaybackTest,testMpeg4_adaptiveSkipBack,same issue of base version,"Test failed to run to completion. Reason: 'Test run failed to complete. Expected 1221 tests, received 30'. Check device logcat for details"
+android.media.cts.AudioEffectTest,test1_3GetEnabledAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test1_4InsertOnMediaPlayer,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test1_5AuxiliaryOnMediaPlayer,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test1_6AuxiliaryOnMediaPlayerFailure,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test1_7AuxiliaryOnAudioTrack,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test2_0SetEnabledGetEnabled,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test2_1SetEnabledAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test3_0SetParameterByteArrayByteArray,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test3_1SetParameterIntInt,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test3_2SetParameterIntShort,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test3_3SetParameterIntByteArray,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test3_4SetParameterIntArrayIntArray,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test3_5SetParameterIntArrayShortArray,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test3_6SetParameterIntArrayByteArray,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test3_7SetParameterAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test3_8GetParameterAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test4_0setEnabledLowerPriority,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test4_1setParameterLowerPriority,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioEffectTest,test4_2ControlStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.AudioEffectTest,test4_3EnableStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.AudioEffectTest,test4_4ParameterChangedListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.AudioEffectTest,test5_0Command,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.AudioManagerTest,testMusicActive,same issue of base version,"Test failed to run to completion. Reason: 'Test run failed to complete. Expected 1135 tests, received 10'. Check device logcat for details"
+android.media.cts.BassBoostTest,test0_0ConstructorAndRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0634f220-ddd4-11db-a0fc-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.BassBoostTest,test1_0Strength,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0634f220-ddd4-11db-a0fc-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.BassBoostTest,test1_1Properties,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0634f220-ddd4-11db-a0fc-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.BassBoostTest,test1_2SetStrengthAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0634f220-ddd4-11db-a0fc-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.BassBoostTest,test2_0SetEnabledGetEnabled,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0634f220-ddd4-11db-a0fc-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.BassBoostTest,test2_1SetEnabledAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0634f220-ddd4-11db-a0fc-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.BassBoostTest,test3_0ControlStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.BassBoostTest,test3_1EnableStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.BassBoostTest,test3_2ParameterChangedListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.DecoderTest,testHEVCDecode30fps1920x1080,same issue of base version,"junit.framework.AssertionFailedError: output timestamp 4899999 without corresponding input timestamp
+at junit.framework.Assert.fail(Assert.java:50)"
+android.media.cts.DecoderTest,testHEVCDecode30fps3840x2160,same issue of base version,"android.media.MediaCodec$CodecException: Failed to initialize OMX.amlogic.hevc.decoder.awesome, error 0xfffffff4
+at android.media.MediaCodec.native_setup(Native Method)"
+android.media.cts.EncodeVirtualDisplayWithCompositionTest,testRendering800x480Locally,same issue of base version,"junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:48)"
+android.media.cts.EncodeVirtualDisplayWithCompositionTest,testRenderingMaxResolutionLocally,same issue of base version,"junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:48)"
+android.media.cts.EnvReverbTest,test0_0ConstructorAndRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EnvReverbTest,test1_0Room,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EnvReverbTest,test1_1Decay,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EnvReverbTest,test1_2Reverb,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EnvReverbTest,test1_3Reflections,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EnvReverbTest,test1_4DiffusionAndDensity,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EnvReverbTest,test1_5Properties,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EnvReverbTest,test2_0SetEnabledGetEnabled,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EnvReverbTest,test2_1SetEnabledAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: c2e5d5f0-94bd-4763-9cac-4e234d06839e Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EnvReverbTest,test3_0ControlStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.EnvReverbTest,test3_1EnableStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.EnvReverbTest,test3_2ParameterChangedListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.EqualizerTest,test0_0ConstructorAndRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EqualizerTest,test1_0BandLevel,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EqualizerTest,test1_1BandFrequency,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EqualizerTest,test1_2Presets,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EqualizerTest,test1_3Properties,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EqualizerTest,test1_4SetBandLevelAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EqualizerTest,test2_0SetEnabledGetEnabled,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EqualizerTest,test2_1SetEnabledAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 0bed4300-ddd6-11db-8f34-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.EqualizerTest,test3_0ControlStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.EqualizerTest,test3_1EnableStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.EqualizerTest,test3_2ParameterChangedListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.ExifInterfaceTest,testReadExifDataFromExifByteOrderMMJpeg,same issue of base version,"junit.framework.AssertionFailedError: expected:<true> but was:<false>
+at junit.framework.Assert.fail(Assert.java:50)"
+android.media.cts.ExifInterfaceTest,testReadExifDataFromMalformedJpeg,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'Native crash''. Check device logcat for details
+android.media.cts.LoudnessEnhancerTest,test0_0ConstructorAndRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: fe3199be-aed0-413f-87bb-11260eb63cf1 Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.LoudnessEnhancerTest,test1_0TargetGain,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: fe3199be-aed0-413f-87bb-11260eb63cf1 Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.LoudnessEnhancerTest,test2_0MeasureGainChange,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: ec7178ec-e5e1-4432-a3f4-4657e6795210 Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.MediaPlayerTest,testChangeSubtitleTrack,same issue of base version,"java.lang.NumberFormatException: Invalid int: ""Dialogue""
+at java.lang.Integer.invalidInt(Integer.java:138)"
+android.media.cts.MediaPlayerTest,testDeselectTrack,same issue of base version,"junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:48)"
+android.media.cts.MediaPlayerTest,testGapless1,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: ec7178ec-e5e1-4432-a3f4-4657e6795210 Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.MediaPlayerTest,testGapless2,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: ec7178ec-e5e1-4432-a3f4-4657e6795210 Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.MediaPlayerTest,testGapless3,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: ec7178ec-e5e1-4432-a3f4-4657e6795210 Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.MediaPlayerTest,testPlayAudioTwice,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: ec7178ec-e5e1-4432-a3f4-4657e6795210 Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.MediaPlayerTest,testPlayMidi,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'void android.media.MediaPlayer.release()' on a null object reference
+at android.media.cts.MediaPlayerTest.testPlayMidi(MediaPlayerTest.java:333)"
+android.media.cts.MediaPlayerTest,testPlaybackRate,same issue of base version,"java.lang.IllegalArgumentException
+at android.media.MediaPlayer.setPlaybackParams(Native Method)"
+android.media.cts.MediaPlayerTest,testSetNextMediaPlayer,same issue of base version,"junit.framework.AssertionFailedError: expected:<android.media.MediaPlayer@201ff9> but was:<android.media.MediaPlayer@b01ab3e>
+at junit.framework.Assert.fail(Assert.java:50)"
+android.media.cts.MediaPlayerTest,testVideoSurfaceResetting,same issue of base version,"junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:48)"
+android.media.cts.PresetReverbTest,test0_0ConstructorAndRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.PresetReverbTest,test1_0Presets,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.PresetReverbTest,test1_1Properties,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.PresetReverbTest,test2_0SetEnabledGetEnabled,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.PresetReverbTest,test2_1SetEnabledAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 47382d60-ddd8-11db-bf3a-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.PresetReverbTest,test3_0ControlStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.PresetReverbTest,test3_1EnableStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.PresetReverbTest,test3_2ParameterChangedListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.VideoEncoderTest,testGoogVP8FlexNearMaxMax,same issue of base version,"Test failed to run to completion. Reason: 'Test run failed to complete. Expected 502 tests, received 233'. Check device logcat for details"
+android.media.cts.VideoEncoderTest,testGoogVP8SurfArbitraryH,same issue of base version,"Test failed to run to completion. Reason: 'Test run failed to complete. Expected 268 tests, received 7'. Check device logcat for details"
+android.media.cts.VirtualizerTest,test0_0ConstructorAndRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test1_0Strength,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test1_1Properties,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test1_2SetStrengthAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test2_0SetEnabledGetEnabled,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test2_1SetEnabledAfterRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test3_0ControlStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.VirtualizerTest,test3_1EnableStatusListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.VirtualizerTest,test3_2ParameterChangedListener,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.RuntimeException''. Check device logcat for details
+android.media.cts.VirtualizerTest,test4_0FormatModeQuery,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test4_1SpeakerAnglesCapaMatchesFormatModeCapa,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test4_2VirtualizationMode,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test4_3DisablingVirtualizationOff,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test4_4VirtualizationModeAuto,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VirtualizerTest,test4_5ConsistentCapabilitiesWithEnabledDisabled,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: 37cc2c00-dddd-11db-8577-0002a5d5c51b Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VisualizerTest,test0_0ConstructorAndRelease,same issue of base version,"java.lang.RuntimeException: Cannot initialize Visualizer engine, error: -3
+at android.media.audiofx.Visualizer.<init>(Visualizer.java:218)"
+android.media.cts.VisualizerTest,test1_0CaptureRates,same issue of base version,"java.lang.RuntimeException: Cannot initialize Visualizer engine, error: -3
+at android.media.audiofx.Visualizer.<init>(Visualizer.java:218)"
+android.media.cts.VisualizerTest,test1_1CaptureSize,same issue of base version,"java.lang.RuntimeException: Cannot initialize Visualizer engine, error: -3
+at android.media.audiofx.Visualizer.<init>(Visualizer.java:218)"
+android.media.cts.VisualizerTest,test2_0PollingCapture,same issue of base version,"java.lang.RuntimeException: Cannot initialize Visualizer engine, error: -3
+at android.media.audiofx.Visualizer.<init>(Visualizer.java:218)"
+android.media.cts.VisualizerTest,test2_1ListenerCapture,same issue of base version,"java.lang.RuntimeException: Cannot initialize Visualizer engine, error: -3
+at android.media.audiofx.Visualizer.<init>(Visualizer.java:218)"
+android.media.cts.VisualizerTest,test3_0MeasurementModeNone,same issue of base version,"java.lang.RuntimeException: Cannot initialize Visualizer engine, error: -3
+at android.media.audiofx.Visualizer.<init>(Visualizer.java:218)"
+android.media.cts.VisualizerTest,test4_0MeasurementModePeakRms,same issue of base version,"java.lang.RuntimeException: Cannot initialize Visualizer engine, error: -3
+at android.media.audiofx.Visualizer.<init>(Visualizer.java:218)"
+android.media.cts.VisualizerTest,test4_1MeasurePeakRms,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: ec7178ec-e5e1-4432-a3f4-4657e6795210 Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.media.cts.VisualizerTest,test4_2MeasurePeakRmsLongMP3,same issue of base version,"java.lang.RuntimeException: Cannot initialize effect engine for type: ec7178ec-e5e1-4432-a3f4-4657e6795210 Error: -3
+at android.media.audiofx.AudioEffect.<init>(AudioEffect.java:411)"
+android.mediastress.cts.H263QcifLongPlayerTest,testPlay00,same issue of base version,"junit.framework.AssertionFailedError: playback /storage/emulated/0/test/bbb_full/176x144/3gp_h263_libfaac/bbb_full.ffmpeg.176x144.3gp.h263_56kbps_12fps.libfaac_mono_24kbps_11025Hz.3gp
+at junit.framework.Assert.fail(Assert.java:50)"
+android.mediastress.cts.H263QcifShortPlayerTest,testPlay00,same issue of base version,"junit.framework.AssertionFailedError: playback /storage/emulated/0/test/bbb_short/176x144/3gp_h263_libfaac/bbb_short.ffmpeg.176x144.3gp.h263_300kbps_12fps.libfaac_mono_24kbps_11025Hz.3gp
+at junit.framework.Assert.fail(Assert.java:50)"
+android.net.cts.ConnectivityManagerTest,testRegisterNetworkCallback,same issue of base version,"junit.framework.AssertionFailedError: Did not receive NetworkCallback.onAvailable for TRANSPORT_WIFI
+at junit.framework.Assert.fail(Assert.java:50)"
+android.net.cts.ConnectivityManagerTest,testRegisterNetworkCallback_withPendingIntent,same issue of base version,"junit.framework.AssertionFailedError: Did not receive expected Intent Intent { act=ConnectivityManagerTest.NetworkCallbackAction } for TRANSPORT_WIFI
+at junit.framework.Assert.fail(Assert.java:50)"
+android.net.cts.DnsTest,testDnsWorks,same issue of base version,"junit.framework.AssertionFailedError: [RERUN] ipv6.google.com returned an ipv4 address, check your network's DNS connection.
+at junit.framework.Assert.fail(Assert.java:50)"
+android.net.wifi.cts.WifiManagerTest,testWifiWatchdog,same issue of base version,"junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:48)"
+android.os.cts.BuildTest,testIsSecureUserBuild,same issue of base version,"junit.framework.ComparisonFailure: Must be a user build expected:<user[]> but was:<user[debug]>
+at junit.framework.Assert.assertEquals(Assert.java:85)"
+android.os.cts.BuildVersionTest,testBuildFingerprint,same issue of base version,"junit.framework.ComparisonFailure: Variant expected:<user[]> but was:<user[debug]>
+at junit.framework.Assert.assertEquals(Assert.java:85)"
+android.os.cts.SecurityPatchTest,testSecurityPatchDate,same issue of base version,"junit.framework.AssertionFailedError: ro.build.version.security_patch should be ""2016-11"" or later. Found ""2016-10-01""
+at junit.framework.Assert.fail(Assert.java:50)"
+android.permission.cts.FileSystemPermissionTest,testProcSelfOomAdjSane,same issue of base version,"junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:48)"
+android.permission.cts.FileSystemPermissionTest,testProcSelfOomScoreAdjSane,same issue of base version,"junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:48)"
+android.provider.cts.Settings_SecureTest,testUnknownSourcesOffByDefault,same issue of base version,"junit.framework.AssertionFailedError: Device should not ship with 'Unknown Sources' enabled by default. expected:<0> but was:<1>
+at junit.framework.Assert.fail(Assert.java:50)"
+android.security.cts.BannedFilesTest,testNoSu,same issue of base version,"junit.framework.AssertionFailedError: /system/xbin/su
+at junit.framework.Assert.fail(Assert.java:50)"
+android.security.cts.BannedFilesTest,testNoSuInPath,same issue of base version,"junit.framework.AssertionFailedError: /system/xbin/su exists
+at junit.framework.Assert.fail(Assert.java:50)"
+android.security.cts.StagefrightTest,testStagefright_bug_27855419_CVE_2016_2463,same issue of base version,"android.media.MediaCodec$CodecException: Failed to initialize OMX.amlogic.avc.decoder.awesome, error 0xfffffff4
+at android.media.MediaCodec.native_setup(Native Method)"
+android.security.cts.StagefrightTest,testStagefright_bug_28333006,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'Native crash''. Check device logcat for details
+android.speech.tts.cts.TextToSpeechTest,testAndroidTestCaseSetupProperly,same issue of base version,"junit.framework.AssertionFailedError: FEATURE_AUDIO_OUTPUT is set, but there is no TTS engine
+at junit.framework.Assert.fail(Assert.java:50)"
+android.speech.tts.cts.TextToSpeechTest,testGetEnginesIncludesDefault,same issue of base version,"junit.framework.AssertionFailedError: FEATURE_AUDIO_OUTPUT is set, but there is no TTS engine
+at junit.framework.Assert.fail(Assert.java:50)"
+android.speech.tts.cts.TextToSpeechTest,testGetEnginesIncludesMock,same issue of base version,"junit.framework.AssertionFailedError: FEATURE_AUDIO_OUTPUT is set, but there is no TTS engine
+at junit.framework.Assert.fail(Assert.java:50)"
+android.speech.tts.cts.TextToSpeechTest,testSpeak,same issue of base version,"junit.framework.AssertionFailedError: FEATURE_AUDIO_OUTPUT is set, but there is no TTS engine
+at junit.framework.Assert.fail(Assert.java:50)"
+android.speech.tts.cts.TextToSpeechTest,testSpeakStop,same issue of base version,"junit.framework.AssertionFailedError: FEATURE_AUDIO_OUTPUT is set, but there is no TTS engine
+at junit.framework.Assert.fail(Assert.java:50)"
+android.speech.tts.cts.TextToSpeechTest,testSynthesizeToFile,same issue of base version,"junit.framework.AssertionFailedError: FEATURE_AUDIO_OUTPUT is set, but there is no TTS engine
+at junit.framework.Assert.fail(Assert.java:50)"
+android.text.method.cts.TimeKeyListenerTest,testTimeKeyListener,same issue of base version,"junit.framework.ComparisonFailure: expected:<12[a]> but was:<12[]>
+at junit.framework.Assert.assertEquals(Assert.java:85)"
+android.trustedvoice.cts.TrustedVoiceHostTest,testLogcat,same issue of base version,"com.android.tradefed.device.DeviceNotAvailableException: Could not find device 10.235.170.69:5555
+	at com.android.tradefed.device.WaitDeviceRecovery.handleDeviceNotAvailable(WaitDeviceRecovery.java:216)"
+android.uirendering.cts.testclasses.BitmapFilterTests,testDrawFilterRemoveFilterScaleDown,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.BitmapFilterTests,testDrawFilterRemoveFilterScaleUp,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.BitmapFilterTests,testDrawFilterScaleDown,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.BitmapFilterTests,testDrawFilterScaleUp,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.BitmapFilterTests,testPaintFilterScaleDown,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.BitmapFilterTests,testPaintFilterScaleUp,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.CanvasStateTests,testClipPathReturnValues,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.CanvasStateTests,testClipRectReturnValues,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.CanvasStateTests,testClipRegionReturnValues,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.CanvasStateTests,testQuickReject,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ExactCanvasTests,testBasicColorXfermode,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ExactCanvasTests,testBasicText,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ExactCanvasTests,testBlackLineOnGreenBack,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ExactCanvasTests,testBlackRectWithStroke,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ExactCanvasTests,testBluePaddedSquare,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ExactCanvasTests,testBlueRect,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ExactCanvasTests,testDrawLine,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ExactCanvasTests,testDrawRedRectOnBlueBack,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ExactCanvasTests,testDrawWhiteScreen,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ExactCanvasTests,testPoints,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testBlackBoldFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testBlackBoldItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testBlackFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testBlackItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testBoldFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testBoldItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testCondensedBoldFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testCondensedBoldItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testCondensedFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testCondensedItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testCondensedLightFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testCondensedLightItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testDefaultFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testLightBoldFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testLightBoldItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testLightFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testLightItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testMediumBoldFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testMediumBoldItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testMediumFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testMediumItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testThinBoldFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testThinBoldItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testThinFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.FontRenderingTests,testThinItalicFont,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.InfrastructureTests,testRenderSpecIsolation,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.InfrastructureTests,testScreenshot,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.InfrastructureTests,testViewInitializer,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.LayerTests,testLayerPaintAlpha,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.LayerTests,testLayerPaintBlend,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.LayerTests,testLayerPaintColorFilter,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.LayoutTests,testSimpleRectLayout,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.LayoutTests,testSimpleRedLayout,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.PathClippingTests,testCircleWithCircle,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.PathClippingTests,testCircleWithPoints,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.PathClippingTests,testTextClip,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.PathClippingTests,testViewRotate,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.PathClippingTests,testWebViewClipWithCircle,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.PictureTest,testPictureRespectsClip,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.PictureTest,testPictureRespectsTranslate,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ShaderTests,testComplexShaderUsage,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ShaderTests,testSinglePixelBitmapShader,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ShaderTests,testSinglePixelComposeShader,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ShadowTests,testShadowLayout,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.SweepTests,testBasicDraws,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.SweepTests,testBasicShaders,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.SweepTests,testColorFilterUsingGradient,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.SweepTests,testColorFiltersAlphas,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.SweepTests,testXfermodes,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ViewClippingTests,testSimpleBoundsClip,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ViewClippingTests,testSimpleClipBoundsClip,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ViewClippingTests,testSimpleOutlineClip,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ViewClippingTests,testSimplePaddingClip,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.uirendering.cts.testclasses.ViewClippingTests,testSimpleUnclipped,same issue of base version,"java.lang.NullPointerException: Attempt to invoke virtual method 'int android.graphics.Bitmap.getWidth()' on a null object reference
+at android.graphics.Bitmap.createBitmap(Bitmap.java:691)"
+android.util.cts.EventLogTest,testReadEvents,same issue of base version,"junit.framework.AssertionFailedError: expected:<3> but was:<0>
+at junit.framework.Assert.fail(Assert.java:50)"
+android.util.cts.EventLogTest,testWriteEvent,same issue of base version,"junit.framework.AssertionFailedError: expected:<5> but was:<0>
+at junit.framework.Assert.fail(Assert.java:50)"
+android.view.inputmethod.cts.BaseInputConnectionTest,testSendKeyEvent,same issue of base version,"junit.framework.AssertionFailedError: unexpected timeout
+at junit.framework.Assert.fail(Assert.java:50)"
+android.widget.cts.AutoCompleteTextViewTest,testOnFilterComplete,same issue of base version,"junit.framework.AssertionFailedError: unexpected timeout
+at junit.framework.Assert.fail(Assert.java:50)"
+com.android.cts.appsecurity.AppSecurityTests,testAppFailAccessPrivateData,same issue of base version,"java.lang.AssertionError: on-device tests failed:
+com.android.cts.appaccessdata.AccessPrivateDataTest#testAccessPrivateData:"
+com.android.cts.filesystemperf.AlmostFullTest,testRandomUpdate,same issue of base version,"java.io.IOException: write failed: ENOSPC (No space left on device)
+at libcore.io.IoBridge.write(IoBridge.java:498)"
+com.android.cts.filesystemperf.RandomRWTest,testRandomUpdate,same issue of base version,"java.io.IOException: write failed: ENOSPC (No space left on device)
+at libcore.io.IoBridge.write(IoBridge.java:498)"
+com.android.cts.opengl.primitive.GLPrimitiveBenchmark,testPixelOutputOnscreen,same issue of base version,"Test failed to run to completion. Reason: 'Test run failed to complete. Expected 9 tests, received 5'. Check device logcat for details"
+com.android.cts.tvproviderperf.TvProviderPerfTest,testPrograms,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.IllegalStateException''. Check device logcat for details
+com.android.cts.videoperf.VideoEncoderDecoderTest,testAvc0176x0144,same issue of base version,"junit.framework.AssertionFailedError: rms error is bigger than the limit 93.74199389969179 vs 20.0
+at junit.framework.Assert.fail(Assert.java:50)"
+com.android.cts.videoperf.VideoEncoderDecoderTest,testAvc0352x0288,same issue of base version,"junit.framework.AssertionFailedError: rms error is bigger than the limit 99.49223379382072 vs 20.0
+at junit.framework.Assert.fail(Assert.java:50)"
+com.android.cts.videoperf.VideoEncoderDecoderTest,testAvc0720x0480,same issue of base version,"junit.framework.AssertionFailedError: rms error is bigger than the limit 90.40019155584424 vs 20.0
+at junit.framework.Assert.fail(Assert.java:50)"
+dEQP-GLES31.functional.blend_equation_advanced.srgb,hsl_saturation,same issue of base version,"=== with config {glformat=rgba8888d24s8ms0,rotation=unspecified,surfacetype=window} ===
+Terminated: Timeout"
+dEQP-GLES31.functional.copy_image.mixed.viewclass_128_bits_mixed.rgba_astc_6x6_khr_rgba32i,texture3d_to_texture3d,same issue of base version,"=== with config {glformat=rgba8888d24s8ms0,rotation=unspecified,surfacetype=window} ===
+Terminated: Timeout"
+dEQP-GLES31.functional.copy_image.mixed.viewclass_128_bits_mixed.srgb8_alpha8_astc_8x8_khr_rgba32ui,cubemap_to_texture2d,same issue of base version,"=== with config {glformat=rgba8888d24s8ms0,rotation=unspecified,surfacetype=window} ===
+Terminated: Timeout"
+libcore.javax.crypto.CipherTest,testCipher_Success,same issue of base version,java.lang.Exception: Errors encountered:
+libcore.xml.ExpatSaxParserTest,testBug28698301_1,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'Native crash''. Check device logcat for details
+libcore.xml.ExpatSaxParserTest,testBug28698301_3,same issue of base version,Test failed to run to completion. Reason: 'Instrumentation run failed due to 'Native crash''. Check device logcat for details
